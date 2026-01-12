@@ -12,18 +12,22 @@
     --border-radius: 8px;
     --bg-color: #ffffff;
     --card-bg: #ffffff;
+    --nav-bg: rgba(255, 255, 255, 0.95);
     --transition: all 0.3s ease;
 }
 
+/* Thème sombre - couleurs plus douces */
 [data-theme="dark"] {
-    --primary-color: #8a7fff;
-    --secondary-color: #a3d1ff;
-    --light-color: #1a1a2e;
+    --primary-color: #7a6df0;
+    --primary-light: rgba(122, 109, 240, 0.1);
+    --secondary-color: #8da2b8;
+    --light-color: #1e293b;
     --dark-color: #f8f9fa;
-    --text-color: #e6e6e6;
-    --text-light: #a3a3a3;
-    --bg-color: #16213e;
-    --card-bg: #1a1a2e;
+    --text-color: #d1d5db;
+    --text-light: #9ca3af;
+    --bg-color: #1e293b;
+    --card-bg: #334155;
+    --nav-bg: rgba(30, 41, 59, 0.95);
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -62,13 +66,13 @@ body {
     text-align: center;
 }
 
-/* Barre de navigation */
+/* Barre de navigation - s'adapte au thème */
 nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: var(--nav-bg);
     box-shadow: var(--shadow);
     z-index: 1000;
     padding: 15px 0;
@@ -76,7 +80,7 @@ nav {
 }
 
 nav.scrolled {
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: var(--nav-bg);
     padding: 10px 0;
 }
 
@@ -143,6 +147,10 @@ nav .container {
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, var(--primary-light), rgba(30, 41, 59, 0.5));
 }
 
 .hero .container {
