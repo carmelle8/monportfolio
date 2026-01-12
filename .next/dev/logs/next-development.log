@@ -1,0 +1,545 @@
+[00:00:26.869] Server  LOG       skipping / (conflict)
+[00:00:36.789] Server  LOG     ✓ Ready in 25.9s
+[00:00:43.222] Server  LOG     ○ Compiling /_not-found/page ...
+[00:01:03.524] Server  LOG     ○ Compiling /_error ...
+[00:01:07.003] Server  ERROR   ⨯ ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:07.016] Server  ERROR   ⨯ ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:09.703] Server  ERROR   ⨯ ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:14.444] Server  WARN    ⚠ Cross origin request detected from 169.254.93.106 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:01:14.461] Browser ERROR   uncaughtError: Error: Cannot find module '../styles/globals.css'
+[00:01:16.021] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:01:16.021] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:16.021] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:16.021] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:47:19.088] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:47:19.088] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:47:19.901] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:47:19.901] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:47:21.058] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:47:21.058] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:39.532] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:56:39.532] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:27.526] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:30.971] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:30.972] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:31.537] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.532] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:34.533] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:36.223] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:36.223] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:37.026] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:57:41.531] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:57:41.531] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:02.535] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:58:02.535] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:06.534] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:58:06.535] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:59:09.536] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:59:09.536] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:59:47.532] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[00:59:47.532] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:00.538] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[01:00:00.538] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:43.535] Browser ERROR   ./Desktop/alternance/portfolio
+App Router and Pages Router both match path: /
+Next.js does not support having both App Router and Pages Router routes matching the same path. Please remove one of the conflicting routes.
+[01:00:43.535] Browser ERROR   ./Desktop/alternance/portfolio/pages/_app.jsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | // pages/_app.js
+> 2 | import '../styles/globals.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import React from 'react';
+  4 |
+  5 | function MyApp({ Component, pageProps }) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:47.089] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\app'
+[01:00:47.205] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\app'
+[01:00:47.298] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\app'
+[01:00:47.891] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:47.910] Server  ERROR   ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:47.923] Server  ERROR   ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:49.346] Server  LOG     ✓ Compiled in 2.3s
+[01:00:52.616] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:52.624] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:52.756] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/alternance/portfolio/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:00:52.797] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:52.804] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:52.841] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
+[01:00:52.852] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\admin\Desktop\alternance\portfolio\pages'
