@@ -14,7 +14,6 @@ export default function Home() {
         <title>Zélie Carmelle | Portfolio</title>
         <meta name="description" content="Portfolio de Zélie Carmelle, étudiante en ingénierie informatique spécialisée en Big Data et Data Science." />
       </Head>
-
       <Header />
       <About />
       <Skills />

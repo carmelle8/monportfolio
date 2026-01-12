@@ -12,12 +12,12 @@ export default function Skills() {
   return (
     <section id="skills" className="py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6">Compétences</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <h2 className="text-3xl font-bold mb-6 text-center">Compétences</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {skills.map((skill, index) => (
-            <div key={index} className="bg-white p-4 rounded shadow">
-              <h3 className="font-bold">{skill.name}</h3>
-              <p>{skill.level}</p>
+            <div key={index} className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow">
+              <h3 className="font-bold text-center">{skill.name}</h3>
+              <p className="text-center text-gray-600">{skill.level}</p>
             </div>
           ))}
         </div>

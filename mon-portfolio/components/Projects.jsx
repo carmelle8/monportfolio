@@ -15,9 +15,9 @@ export default function Projects() {
   return (
     <section id="projects" className="py-10">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6">Projets</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Projets</h2>
         {projects.map((project, index) => (
-          <div key={index} className="mb-8">
+          <div key={index} className="mb-8 bg-white p-6 rounded shadow hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold">{project.title}</h3>
             <p className="mt-2">{project.description}</p>
             <p className="text-gray-600 mt-2">Technologies : {project.technologies.join(", ")}</p>

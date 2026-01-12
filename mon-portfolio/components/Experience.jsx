@@ -23,9 +23,9 @@ export default function Experience() {
   return (
     <section id="experience" className="py-10 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-6">Expériences</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Expériences</h2>
         {experiences.map((exp, index) => (
-          <div key={index} className="mb-8">
+          <div key={index} className="mb-8 bg-white p-6 rounded shadow hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold">{exp.title}</h3>
             <p className="text-gray-600">{exp.company} | {exp.date}</p>
             <ul className="list-disc pl-5 mt-2">
