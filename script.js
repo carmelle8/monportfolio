@@ -3,10 +3,21 @@ const burger = document.getElementById('burger');
 const navLinks = document.getElementById('navLinks');
 const overlay = document.getElementById('overlay');
 
+// Animation pour la navigation mobile
 burger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
     overlay.classList.toggle('active');
     document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+
+    // Animation des liens
+    const links = document.querySelectorAll('.nav-links a');
+    links.forEach((link, index) => {
+        if (link.style.animation) {
+            link.style.animation = '';
+        } else {
+            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+        }
+    });
 });
 
 // Fermer la navigation mobile en cliquant sur l'overlay
@@ -26,20 +37,24 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Navigation fluide
+// Navigation fluide avec animation
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
+
+        // Fermer la navigation mobile si ouverte
+        navLinks.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+
         const targetId = this.getAttribute('href');
         const targetElement = document.querySelector(targetId);
+
+        // Animation de scroll
         window.scrollTo({
             top: targetElement.offsetTop - 80,
             behavior: 'smooth'
         });
-        // Fermer la navigation mobile après clic
-        navLinks.classList.remove('active');
-        overlay.classList.remove('active');
-        document.body.style.overflow = '';
     });
 });
 
@@ -81,3 +96,16 @@ if (githubLink) {
         githubLink.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.2)';
     });
 }
+
+// Carrousel pour les projets
+document.querySelectorAll('.project-carousel').forEach(carousel => {
+    const images = carousel.querySelectorAll('img');
+    let currentIndex = 0;
+
+    // Animation du carrousel
+    setInterval(() => {
+        currentIndex = (currentIndex + 1) % images.length;
+        carousel.style.transition = 'transform 0.5s ease';
+        carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }, 3000);
+});
